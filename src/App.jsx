@@ -25,12 +25,13 @@ const App = () => (
         backgroundColor: '#222',
         color: '#fff',
         textAlign: 'center',
-        padding: '10px',
-        // marginTop: '20px',
-        position: 'fixed',
+        padding: '0.9rem',
+        
+        position:"fixed",
         bottom: 0,
         left: 0,
         right: 0,
+       
         zIndex: 1000, 
       }}
     >

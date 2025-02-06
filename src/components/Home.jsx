@@ -24,18 +24,18 @@ const Home = () => (
     backgroundSize: 'cover',          // Ajusta la imagen al tamaño del contenedor
     // backgroundPosition: 'center',     // Centra la imagen de fondo
     backgroundRepeat: 'no-repeat',    // Evita que la imagen se repita
-    minHeight: '100vh',               // Asegura que el Box ocupe al menos toda la altura de la ventana
+    minHeight: '80vh',               // Asegura que el Box ocupe al menos toda la altura de la ventana
     display: 'flex',
     flexDirection: 'column',
     color: '#fff',
     width: '100%',                   // Asegura que ocupe el 100% del ancho del body
     position: 'relative',            // Para asegurar que el fondo cubra todo el Box
     overflow: 'hidden',              // Elimina el scroll vertical
-    height: '100vh',    
+    height: '95vh',    
   }}
 >
 
-      <Typography variant="h2" style={{ fontWeight: 'bold', marginBottom: '20px' ,marginTop:"100px"}}>
+      <Typography  variant="h2" style={{ fontWeight: 'bold', marginBottom: '20px' ,marginTop:"100px",marginLeft:"5px",marginRight:"5px"}}>
         Damián Paz V
       </Typography>
       <Typography variant="h5" style={{ marginBottom: '30px' }}>

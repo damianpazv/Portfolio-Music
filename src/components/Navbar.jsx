@@ -36,7 +36,7 @@ const Navbar = () => {
 
           {/* Botones para pantallas grandes */}
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-            {['Inicio', 'Sobre mí', 'Portfolio', 'Contacto'].map((text, index) => (
+            {['Inicio', 'Sobre mí', 'Mis Trabajos', 'Contacto'].map((text, index) => (
               <motion.div
                 key={index}
                 whileHover={{ backgroundColor: '#555' }} // Efecto de cambio de color al posicionarse
@@ -78,7 +78,7 @@ const Navbar = () => {
           onKeyDown={toggleDrawer(false)}
         >
           <List>
-            {['Inicio', 'Sobre mí', 'Portfolio', 'Contacto'].map((text, index) => (
+            {['Inicio', 'Sobre mí', 'Mis Trabajos', 'Contacto'].map((text, index) => (
               <ListItem
                 button
                 key={index}
